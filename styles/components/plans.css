@@ -1,0 +1,259 @@
+.plans{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 4rem;
+    background-color: hsl(189, 94%, 43%, 0.1);
+}
+
+.plans-title{
+    font-size: var(--size-6xl);
+    font-weight: 800;
+    margin-top: 0.8rem;
+    color: var(--clr-slate800);
+    /* border: 1px solid; */
+    /* text-align: center; */
+}
+
+.plans-table-container{
+    display: flex;
+    gap: 5rem;
+    /* border: 1px solid red; */
+    /* padding: 1rem; */
+}
+
+.plans-table-container li::marker{
+    /* color: greenyellow; */
+    font-family:'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+.linebar{
+    margin: 1rem 0;
+    width: 100%;
+    border: 1px solid;
+    opacity: 0.5;
+}
+
+.table-features{
+    margin-right: auto;
+    font-size: var(--size-lg);
+    font-weight: 600;
+}
+
+/* table 1 */
+
+.table-1-container{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    box-shadow: 0px 7px 14px rgba(28, 29, 29, 0.4);
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 3rem;
+    /* width: 26rem; */
+    /* width: 42ch; */
+    background-color: hwb(0 95% 5% / 0.404);
+    /* box-shadow: 0px 7px 14px rgba(28, 29, 29, 0.5);
+    backdrop-filter: blur(0.2rem); */
+}
+
+.table-1-title{
+    font-size: var(--size-3xl);
+    /* border: 1px solid red; */
+    color: var(--clr-slate800);
+    /* margin-top: 1rem; */
+    
+}
+
+.table-1-subtitle{
+    font-size: var(--size-lg);
+    font-weight: 600;
+
+    /* border: 1px solid; */
+    
+}
+
+.table-1-price{
+    font-size: var(--size-4xl);
+    
+    /* border: 1px solid; */
+    margin-bottom: 1.5rem;
+}
+
+.table-1-btn{
+    font-size: var(--size-xl);
+    
+   
+}
+
+.table-1-description{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 1em;
+    font-size: var(--size-base);
+    font-weight: 500;
+    padding-left: 1.2em;
+    /* margin-top: 1rem;  */
+    list-style-type: '✔';
+    /* border: 1px solid; */
+    /* border-radius: 10px; */
+}
+
+.table-1-description li::before{
+    content: '';
+    margin-right: 0.5em;
+}
+
+/* table 2 */
+
+.table-2-container{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    box-shadow: 0px 7px 14px rgba(28, 29, 29, 0.4);
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 3rem;
+    /* width: 26rem; */
+    width: 45ch;
+    background-color: hwb(0 95% 5% / 0.404);
+    /* box-shadow: 0px 7px 14px rgba(28, 29, 29, 0.5);
+    backdrop-filter: blur(0.2rem); */
+}
+
+.table-2-title{
+    font-size: var(--size-3xl);
+    /* border: 1px solid red; */
+    color: var(--clr-slate800);
+    /* margin-top: 1rem; */
+    
+}
+
+.table-2-subtitle{
+    font-size: var(--size-lg);
+    font-weight: 600;
+    text-align: center;
+    /* border: 1px solid; */
+    
+}
+
+.table-2-price{
+    font-size: var(--size-4xl);
+    
+    /* border: 1px solid; */
+    margin-bottom: 1.5rem;
+}
+
+.table-2-btn{
+    font-size: var(--size-xl);
+    
+   
+}
+
+.table-2-description{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 1em;
+    font-size: var(--size-base);
+    font-weight: 500;
+    padding-left: 1.2em;
+    /* margin-top: 1rem;  */
+    list-style-type: '✔';
+    /* border: 1px solid; */
+    /* border-radius: 10px; */
+}
+
+.table-2-description li::before{
+    content: '';
+    margin-right: 0.5em;
+}
+
+/* table 3 */
+
+.table-3-container{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    box-shadow: 0px 7px 14px rgba(28, 29, 29, 0.4);
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 3rem;
+    /* width: 26rem; */
+    /* width: 42ch; */
+    background-color: hwb(0 95% 5% / 0.404);
+    /* box-shadow: 0px 7px 14px rgba(28, 29, 29, 0.5);
+    backdrop-filter: blur(0.2rem); */
+}
+
+.table-3-title{
+    font-size: var(--size-3xl);
+    /* border: 1px solid red; */
+    color: var(--clr-slate800);
+    /* margin-top: 1rem; */
+    
+}
+
+.table-3-subtitle{
+    font-size: var(--size-lg);
+    font-weight: 600;
+    /* border: 1px solid; */
+    
+}
+
+.table-3-price{
+    font-size: var(--size-4xl);
+    
+    /* border: 1px solid; */
+    margin-bottom: 1.5rem;
+}
+
+.table-3-btn{
+    font-size: var(--size-xl);
+    
+   
+}
+
+.table-3-description{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 1em;
+    font-size: var(--size-base);
+    font-weight: 500;
+    padding-left: 1.2em;
+    /* margin-top: 1rem;  */
+    list-style-type: '✔';
+    /* border: 1px solid; */
+    /* border-radius: 10px; */
+}
+
+.table-3-description li::before{
+    content: '';
+    margin-right: 0.5em;
+}
+
+
+#zoho-innerlist{
+    list-style-type:'→';
+    padding-left: 1.5em;
+}
+
+#list-extra-icon{
+    list-style-type: none;
+    font-size: var(--size-xl);
+    font-weight: 800;
+    /* border: 1px solid; */
+    margin-left: -1.5em;
+}

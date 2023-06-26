@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c5363da7c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/mordern-normalize.css">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/euclid-circular-a">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/components/header.css">
+    <link rel="stylesheet" href="styles/components/hero.css">
+    <link rel="stylesheet" href="styles/components/plans.css">
+    <link rel="stylesheet" href="styles/components/pro-services.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="stylesheet" href="styles/components/get-started.css">
+    <link rel="stylesheet" href="styles/utils.css">   
+</head>
+<body>
+
+    <header class="header container">
+        <div class="header-align">
+            <img class="header__logo" src="images/logo.svg" alt="company logo">
+            <ul class="header__menu">
+                <li class="header__hosting-ddwn">
+                    <a class="header__link" href="#hosting">Hosting</a>
+                    <div class="dropdown_content">
+                        <a href="#">GitHub Hosting</a>
+                        <a href="#">School/NGO/Small<br>Business Hosting</a>
+                        <a href="#">Ecommerce Hosting</a>
+                    </div>
+                </li>
+                <li class="header__services-ddwn">
+                    <a class="header__link" href="#services">Pro Services</a>
+                    <div class="dropdown_content">
+                        <a href="#">Website Design</a>
+                        <a href="#">CMS Development</a>
+                    </div>
+                </li>
+                <li class="header__resources-ddwn">
+                    <a class="header__link" href="#resources">Resources</a>
+                    <div class="dropdown_content">
+                        <a href="#">Our Company</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Community</a>
+                        <a href="#">Partners</a>
+                    </div>
+                </li>
+                <li class="header__contact-ddwn">
+                    <a class="header__link " href="#contact">Contact</a>
+                    <div class="dropdown_content">
+                        <a href="#">Call Us</a>
+                        <a href="#">Email</a>
+                            <a href="#">Socials</a>
+                    </div>
+                </li>
+            </ul>
+            <a class="header__login btn2" href="#login">
+                <span>Login<arrow>&nbsp<i class="fa-solid fa-arrow-right-to-bracket"></i></arrow></span>
+            </a>    
+            <button id="header__bars">
+                <i class="fa-solid fa-bars fa-lg"></i>
+            </button>
+
+        </div>
+    </header>   
+    <main>
+        
+        <section class= "hero container spacing">
+            <div class="hero-align">
+                <div class="hero-flex">
+                    <h1 class="hero-title">Web Hosting To Level<br>Up Your Business</h1>
+                    <p class="hero-description"><strong>SastoHost</strong> is a domain registration and web 
+                        hosting service offered by Berkeley Computer Pvt. Ltd., Kathmandu, Nepal 
+                        that helps individual and small businesses have a professional mobile-optimized 
+                        web presence with year-round technical support on issues, enhancements, and continuous 
+                        feature development requests. We offer email hosting in partnership with Zoho Mail. Need
+                         web presence or any technical help on making your business tech savvy? Call us today.
+                    </p>
+                    <a class="hero-btn btn2" href="#plans-sec"><span>See Plans and Pricing<arrow> →</arrow></span></a>
+                </div>
+            </div>
+        </section>
+                    
+
+        
+        <section id="plans-sec" class= "plans container spacing">
+            <h1 class="plans-title">All Hosting Plans</h1>
+            <div class="plans-table-container">
+                <div class="table-1-container">
+                    <h2 class="table-1-title">GitHub Hosting</h2>
+                    <p class="table-1-subtitle">For Static, Personal, Portfolio Website.<br><br></p>
+                    <h3 class="table-1-price">NRs. 2000/year</h3>
+                    <a class="table-1-btn getplanbtn"><span>Get Plan<arrow> →</arrow></span></a>
+                    <div class="linebar"></div>
+                    <div class="table-features">Features</div>
+                    <ul class="table-1-description">
+                        <li>GitHub Static hosting</li>
+                        <li>.com domain name</li>
+                        <li>unlimited subdomains</li>
+                        <li>Free Zoho Email Hosting
+                            <ul id="zoho-innerlist">
+                                <li>5 email accounts</li>
+                                <li>5GB inbox each</li>
+                            </ul>
+                        </li>
+                        <li>Year-round Customer Education</li>
+                        <li>24/7 Customer Support</li>
+                    </ul>
+                </div>
+                <div class="table-2-container">
+                    <h2 class="table-2-title">Small-Scale Hosting</h2>
+                    <p class="table-2-subtitle">For Dynamic Portfolio, Small Business, Blog, NGO, School Website.</p>
+                    <h3 class="table-2-price">NRs. 10,000/year</h3>
+                    <a class="table-2-btn getplanbtn"><span>Get Plan<arrow> →</arrow></span></a>
+                    <div class="linebar"></div>
+                    <div class="table-features">Features</div>
+                    <ul class="table-2-description">
+                        <li>Web hosting </li>
+                        <li>.com domain name</li>
+                        <li>unlimited subdomains</li>
+                        <li>Free Zoho Email Hosting
+                            <ul id="zoho-innerlist">
+                                <li>5 email accounts</li>
+                                <li>5GB inbox each</li>
+                            </ul>
+                        </li>
+                        <li>Year-round Customer Education</li>
+                        <li>24/7 Customer Support</li>
+                        <li id="list-extra-icon">+</li>
+                        <li>Free cPanel/SFTP Access</li>
+                        <li>Free SSL Certificate</li>
+                        <li>Regular Backups</li>
+                        <li>Security</li>
+                    </ul>
+                </div>
+                <div class="table-3-container">
+                    <h2 class="table-3-title">Ecommerce Hosting</h2>
+                    <p class="table-3-subtitle">For Ecommerce (Online Shop).<br><br></p>
+                    <h3 class="table-3-price">NRs. 15,000/year</h3>
+                    <a class="table-3-btn getplanbtn"><span>Get Plan<arrow> →</arrow></span></a>
+                    <div class="linebar"></div>
+                    <div class="table-features">Features</div>
+                    <ul class="table-3-description">
+                        <li>Web hosting </li>
+                        <li>.com domain name</li>
+                        <li>unlimited subdomains</li>
+                        <li>Free Zoho Email Hosting
+                            <ul id="zoho-innerlist">
+                                <li>5 email accounts</li>
+                                <li>5GB inbox each</li>
+                            </ul>
+                        </li>
+                        <li>Year-round Customer Education</li>
+                        <li>24/7 Customer Support</li>
+                        <li id="list-extra-icon">+</li>
+                        <li>Free cPanel/SFTP Access</li>
+                        <li>Free SSL Certificate</li>
+                        <li>Regular Backups</li>
+                        <li>Security</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class= "services container spacing">
+            <div class="services-align">
+                <img class="services-image" src="images/services-image.jpg">
+                <div class="services-content-container">
+                    <h1 class="services-title">Pro Services</h1>
+                    <div class="content-container">
+                        <div class="box1-container">
+                            <h3 class="box1-title">Website Design<br>& HTML/CSS</h3>
+                            <h4 class="box1-price">NRs.10,000/-</h4>
+                            <div class="box-hover">
+                                <p class="hover-details-text"><span>Details</span></p>
+                                <ul class="box1-details">
+                                    <li>Homepage: NRs. 10,000/-</li>
+                                    <li>Per Inner Page: NRs. 2,500/-</li>
+                                </ul>
+                            </div>
+                            
+                            <a class="box1-btn btn2"><span>Buy Now<arrow> →</arrow></span></a>
+                        </div>
+                        <div class="box2-container">
+                            <h3 class="box2-title">CMS<br>Development</h3>
+                            <h4 class="box2-price">NRs.15,000/-</h4>
+                            <div class="box-hover">
+                                <p class="hover-details-text">Details</p>
+                                <ul class="box2-details">
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <a class="box2-btn btn2"><span>Buy Now<arrow> →</arrow></span></a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            
+        </section>
+        <section class="get-started container spacing">
+            <h1 class="get-started-title">Ready to get started?</h1>
+            <p class="get-started-subtitle">Choose a plan and get your presence on the web at 
+                an affortable price.<br><br>◈
+            </p>
+            <a class="get-started-btn btn2" href="#plans-sec"><span>Get Started<arrow> →</arrow></span></a>
+        </section>
+    </main>    
+    <footer class="footer container">
+        <div class="footer-align">
+            <div class="footer-row1-container">
+                <ul class="footer-info-container">
+                    <img class="footer-logo" src="images/logo-1.svg" alt="company logo">
+                    <li>by Berkeley Computer Pvt. Ltd. </li>
+                    <li>Thapathali #11</li>
+                    <li>Kathmandu, Nepal</li>
+                    <li>Phone: +977 98690-54826</li>
+                    <li>Email: <a href="#">support@sastohost.net</a></li>
+                </ul>
+                <div class="footer-navs-container">
+                    <ul class="navs-cols">
+                        <li class="cols-title">Hosting</li>
+                        <li><a href="#">GitHub Hosting</a></li>
+                        <li><a href="#">School/NGO/Small-<br>Business Hosting</a></li>
+                        <li><a href="#">Ecommerce Hosting</a></li>
+                    </ul>
+                    <ul class="navs-cols">
+                        <li class="cols-title">Pro Services</li>
+                        <li><a href="#">Website Design</a></li>
+                        <li><a href="#">CMS Development</a></li>
+                    </ul>
+                    <ul class="navs-cols">
+                        <li class="cols-title">Resources</li>
+                        <li><a href="#">Our Company</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                    <ul class="navs-cols">
+                        <li class="cols-title">Contact</li>
+                        <li><a href="#">Call Us</a></li>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Socials</a> </li>
+                    </ul>  
+                </div>
+                <div class="footer-socials-container">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="linebar"></div>
+            <div class="footer-row2-container">
+                <a class="footer-terms" href="#">Terms and Conditions</a>
+                <p>© 2023 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <a class="back-to-top-btn btn3" href="#"><span>▲</span></a>
+</body>
+</html>
+                        
+                        
+        
+                       
+                        
+
+                        
+                
+                
+                            
+                        
+                            
+            
+            
+            
+
+
+                
+                
+                
+                
+                

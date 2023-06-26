@@ -1,0 +1,225 @@
+.services{
+    display:flex;
+    justify-content: center;
+    /* padding: 0 10rem; */
+    /* border: 1px solid; */
+    border-radius: 10px;   
+}
+
+.services-align{
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    display: flex;
+    /* padding: 10rem; */
+    justify-content: space-evenly;
+    width: 96rem;
+    /* align-items: flex-end; */
+    /* padding:0; */
+    /* gap: 1.5rem; */
+    /* padding: 2rem 0rem; */
+}
+
+.services-image{
+    /* aspect-ratio: 1; */
+    display: flex;
+    width: 47%;
+    /* border: 1px solid; */
+    border-radius: 10px;
+
+}
+
+.services-content-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* border: 1px solid; */
+    border-radius: 30px;
+    gap: 2rem;
+    padding: 0rem 1.5rem;
+    /* margin-left: 15rem; */
+    /* background-color: hsl(225, 46%, 5%, 0.7);
+    box-shadow: 0px 7px 14px rgba(28, 29, 29, 0.5);
+    backdrop-filter: blur(0.2rem); */
+    /* height: 400px; */
+}
+
+.services-title{
+    color:  var(--clr-slate800);
+    /* align-self: center; */
+    /* text-align: left; */
+    margin-bottom: 2rem;
+    font-size: var(--size-7xl);
+    font-weight: 800;
+    /* border: 1px solid; */
+}
+
+.content-container{
+    /* border: 1px solid; */
+    display: flex;
+    /* flex-direction: column; */
+    gap: 3rem;
+}
+
+/* left-box */
+.box1-container{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 1.5rem 1rem;
+    gap: 1rem;
+    width: 23ch;
+    /* height: 17rem; */
+    background-color: hsl(225, 46%, 5%, 0.7);
+    box-shadow: 0px 7px 14px rgba(28, 29, 29, 0.5);
+    backdrop-filter: blur(0.2rem);
+}
+
+.box1-title{
+    color:  var(--clr-light);
+    font-size: var(--size-xxl);
+    /* border: 1px solid; */
+    /* text-align: center; */
+    margin: 0.5rem 0;
+}
+
+.box1-price{
+    /* margin-right: auto; */
+    color:  var(--clr-light);
+    font-size: var(--size-3xl);
+    font-weight: 700;
+}
+
+.box1-btn{
+    font-size: var(--size-lg);
+    margin-top: 1rem;
+}
+
+/* right box */
+
+.box2-container{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 1.5rem 1rem;
+    gap: 1rem;
+    width: 23ch;
+    /* height: 15rem; */
+    background-color: hsl(225, 46%, 5%, 0.7);
+    box-shadow: 0px 7px 14px rgba(28, 29, 29, 0.5);
+    backdrop-filter: blur(0.2rem);
+}
+
+.box2-title{
+    color:  var(--clr-light);
+    font-size: var(--size-xxl);
+    /* border: 1px solid; */
+    /* text-align: center; */
+    margin: 0.5rem 0;
+    
+    
+}
+
+.box2-price{
+    color:  var(--clr-light);
+    font-size: var(--size-3xl);
+    font-weight: 700;
+}
+
+.box2-btn{
+    font-size: var(--size-lg);
+    margin-top: 1rem;
+}
+
+/* hover effect */
+.box-hover{
+    /* border: 1px solid; */
+    margin-right: auto;
+    position: relative;
+}
+
+
+
+.hover-details-text{
+    color:  var(--clr-light);
+    font-size: var(--size-base);
+    font-weight: 500;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    /* margin-right: auto; */
+    /* border: 1px solid; */
+    
+}
+
+/* .hover-details-text span{
+    
+} */
+
+/* .hover-details-text:hover{
+    transform: translateX(-20px);
+} */
+
+.box1-details{
+    display: flex;
+    position: absolute;
+    left: 3rem;
+    bottom: -0.6rem;
+    list-style-type: '◈';
+    color: hsl(0, 5%, 85%);
+    font-size: 0.6rem;
+    font-weight: 500;
+    /* border: 1px solid; */
+    padding-left: 1rem;
+    width: 30ch;
+    flex-direction: column;
+    gap: 0.5rem;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.box-hover:hover .box1-details{
+    opacity: 1;
+}
+
+.box1-details li::before{
+    content:'';
+    /* border: 1px solid; */
+    margin-left: 0.5rem;
+}
+
+.box2-details{
+    display: flex;
+    position: absolute;
+    left: 3rem;
+    bottom: -0.6rem;
+    list-style-type: '◈';
+    color: hsl(0, 5%, 85%);
+    font-size: 0.6rem;
+    font-weight: 500;
+    /* border: 1px solid; */
+    padding-left: 1rem;
+    width: 30ch;
+    flex-direction: column;
+    gap: 0.5rem;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+
+.box-hover:hover .box2-details{
+    opacity: 1;
+}
+
+
+.box2-details li::before{
+    content:'';
+    /* border: 1px solid; */
+    margin-left: 0.5rem;
+}
